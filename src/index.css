@@ -152,55 +152,7 @@ h6 {
   font-weight: 700;
   color: #1e292b;
 }
-
-/* Form styling */
-.formContainer {
-  display: flex;
-  flex-flow: column wrap;
-  align-items: center;
-  justify-content: center;
-  padding: 5%;
-}
-.formContainer h2 {
-  margin-bottom: 3%;
-  font-size: 2rem;
-}
-.userInput {
-  display: flex;
-  flex-flow: column wrap;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.2rem;
-}
-.userInput input {
-  background: #4f6c6b;
-  border: 2px solid #f7ddd9;
-  height: 3rem;
-  width: 20rem;
-  border-radius: 0.5rem;
-  color: #ededed;
-}
-.userInput ::placeholder {
+::placeholder {
   color: #ededed;
   font-size: 1rem;
-}
-.userSubmitBtn {
-  display: flex;
-  flex-flow: column wrap;
-  align-items: center;
-  justify-content: center;
-  margin-top: 3%;
-}
-.userSubmitBtn button {
-  background: #4f6c6b;
-  color: #ededed;
-  font-family: "Josefin Sans", sans-serif;
-  font-weight: 700;
-  font-size: 1rem;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  border: 2px solid #f7ddd9;
-  border-radius: 0.6rem;
-  height: 3rem;
-  width: 8rem;
 }
